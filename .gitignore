@@ -1,0 +1,5 @@
+# Binaries and the big optional game file go to Releases / Nexus, not into the repository
+*.asi
+*.dll
+*.rpf
+*.log

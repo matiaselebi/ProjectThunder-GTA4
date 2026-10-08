@@ -1,0 +1,53 @@
+PROJECT THUNDER CE 1.7  --  GTA IV Complete Edition 1.2.0.59 + FusionFix
+=========================================================================
+Port completo del Project Thunder IV de ItsClonkAndre (GPL-3.0) como .asi independiente.
+No necesita IV-SDK .NET, ScriptHook ni ClonksCodingLib. No toca partidas ni logros.
+
+QUE HACE
+- Rayos con ramas durante las tormentas; iluminan la ciudad, el cielo y las nubes.
+- Truenos desde la direccion del rayo, con la demora real del sonido: secos y fuertes cerca,
+  retumbos largos y graves lejos. Eco entre edificios altos, seco en lugares abiertos, sordo adentro.
+- Los rayos buscan lo alto (torres, antenas, el edificio mas alto) y los peatones con paraguas.
+- Explosion donde cae el rayo (nunca en misiones, cinematicas ni a menos de 35 m tuyo).
+- Rayos en el agua: salpicadura, destello y siseo, sin explosion.
+- Rayos lejanos de decoracion (1,5-4 km), relampagos de calor y fuego de San Telmo en las terrazas.
+- Humo donde cae el rayo, alarmas de autos, peatones que reaccionan, perros que ladran a lo lejos.
+- Estatica en la radio del auto si cae un rayo cerca (solo con la radio prendida).
+- Vibracion del DualSense con los truenos cercanos (via NativeDualSense).
+
+APAGONES
+Si un rayo (o una explosion tuya) da en una subestacion electrica, se puede cortar la luz 25-80 s:
+- Ventanas, carteles y neones se apagan de a poco; faroles, halos de luz, semaforos y luces lejanas tambien.
+- La noche se oscurece, suena el corte, Niko y los peatones reaccionan.
+- Los trenes frenan y los Pay'n'Spray cierran hasta que vuelve la luz.
+- Chispas en la subestacion; hospitales y comisarias siguen con luz (generadores).
+- Las luces de los autos y los rayos siguen.
+
+INSTALAR
+1) Copiar el contenido de "Main files" a la carpeta del juego (donde esta GTAIV.exe).
+2) (Recomendado) Copiar el contenido de "Optional - remove vanilla thunder" a la carpeta del juego.
+   Saca los truenos y el destello que trae el juego, para que no se mezclen con los del mod.
+   Para volver atras, borrar esos dos archivos.
+
+TECLAS DE PRUEBA (se desactivan con TestKeys=0)
+- Ctrl+F11: tormenta / volver al clima normal (volve al clima normal antes de guardar).
+- Ctrl+F8: apagon de prueba / terminarlo.
+- Ctrl+F10: rayo delante de la camara.
+- Ctrl+F9: tanda de rayos lejanos.
+
+LIMITACIONES
+- Algunas pantallas y neones estan pintados como luminosos en la textura del edificio: esos no se apagan.
+- No incluye bajar la vision de la policia durante el apagon (si lo tiene el original).
+
+LOG
+plugins\ProjectThunderCE.log. Si algo falla, manda ese archivo.
+
+CREDITOS
+- ItsClonkAndre: Project Thunder IV (diseno, ajustes, datos y sonido del apagon).
+- Truenos: del pack de sonidos de GTA IV que trae Project Thunder IV (audio (c) Rockstar Games).
+- Ladridos: grabaciones CC0 de Freesound (dataset ESC-50): rickyjezz, ahill86, zeshoog,
+  UnderlinedDesigns, Jace y magnus589.
+- Chispas, estatica, agua y generador: sonidos sinteticos hechos para este mod.
+- BASS (bass.dll) de Un4seen Developments, gratis para uso no comercial.
+- Equipo de FusionFix.
+Licencia: GPL-3.0 (ver LICENSE). Codigo fuente en "source".

@@ -1,4 +1,4 @@
-# Project Thunder CE
+# Project Thunder
 
 Realistic thunderstorms for **GTA IV: The Complete Edition (1.2.0.59)** with FusionFix.
 
